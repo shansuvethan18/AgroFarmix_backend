@@ -7,7 +7,7 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: "https://kind-pear-clownfish-cape.cyclic.cloud",
+    origin: "https://agrofarmix.vercel.app",
     credentials: true,
   })
 );
