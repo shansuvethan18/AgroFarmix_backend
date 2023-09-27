@@ -7,7 +7,7 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: "http://localhost:",
+    origin: "https://kind-pear-clownfish-cape.cyclic.cloud",
     credentials: true,
   })
 );
